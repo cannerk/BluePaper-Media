@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+/* --------------------SEMANTICS--------------------*/
+header{
+	background-image:url(../img/paper.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	background-size:cover;
+}
+body{
+	color:#132029;	
+}
+
+/* --------------------TYPOGRAPHY--------------------*/
+h1 {
+    font-family: "freight-Display-pro",serif;
+    letter-spacing:2px;
+	color:#132029;
+}
+p  {
+	font-family: "freight-Sans-pro",sans-serif;
+	color:#132029;
+}
+a{
+	font-family: "freight-Sans-pro",sans-serif;
+	font-size:1.2em;
+	color:#EDF3F3;
+}
+/* --------------------BUTTONS--------------------*/
+.btn-primary{
+	background-color:transparent;	
+	border: .35rem solid #132029;
+	border-radius:1px;
+	color:#132029;
+}
+.btn:hover{
+	background-color:#132029;
+	border: .35rem solid #132029;
+	color:#EDF3F3;
+}
+/* --------------------NAVBAR--------------------*/
+.navbar{
+	margin-bottom: 0px;	
+	border-radius:0px;
+	background-color:#132029;
+	border:1px solid #132029;
+}
+/* --------------------CLASS SELECTORS--------------------*/
+.jumbotron{
+	background-color:transparent;
+	margin-top:0px;
+}
