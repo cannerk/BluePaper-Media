@@ -17,9 +17,16 @@ h1 {
     letter-spacing:2px;
 	color:#132029;
 }
+h2 {
+    font-family: "freight-Sans-pro",serif;
+    letter-spacing:2px;
+	font-weight:700;
+	color:#132029;
+}
 p  {
 	font-family: "freight-Sans-pro",sans-serif;
 	color:#132029;
+	line-height: 1.4em;
 }
 a{
 	font-family: "freight-Sans-pro",sans-serif;
@@ -49,4 +56,29 @@ a{
 .jumbotron{
 	background-color:transparent;
 	margin-top:0px;
+}
+.navbar-brand{
+	font-weight:700;
+}
+.about{
+	font-size:17.5px;	
+}
+.wt{
+	color:#EDF3F3;	
+}
+.wh{
+	border-bottom: 1px solid #EDF3F3;	
+}
+/* --------------------ID'S--------------------*/
+#team{
+	/*background-image:url(../img/grid_@2x.gif);
+	background-repeat:repeat;*/	
+	background-color:#273C4A;
+}
+#about p{
+	margin-bottom:2rem;
+}
+#about p:last-child,
+#team p{
+		margin-bottom:7rem;	
 }
