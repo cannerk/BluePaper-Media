@@ -45,6 +45,11 @@ a{
 	border: .35rem solid #132029;
 	color:#EDF3F3;
 }
+.btn:active{
+	background-color:#132029;
+	border: .35rem solid #132029;
+	color:#EDF3F3;
+}
 /* --------------------NAVBAR--------------------*/
 .navbar{
 	margin-bottom: 0px;	
@@ -68,6 +73,7 @@ a{
 }
 .wh{
 	border-bottom: 1px solid #EDF3F3;	
+	width:100%;
 }
 /* --------------------ID'S--------------------*/
 #team{
