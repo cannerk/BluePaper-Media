@@ -6,6 +6,7 @@ header{
 	background-repeat:no-repeat;
 	background-position:bottom right;
 	background-size:cover;
+	margin-top:5rem;
 }
 body{
 	color:#132029;	
@@ -75,6 +76,10 @@ a{
 	border-bottom: 1px solid #EDF3F3;	
 	width:100%;
 }
+.navbar-brand{
+	width:75%;
+	height:75%;	
+}
 /* --------------------ID'S--------------------*/
 #team{
 	/*background-image:url(../img/grid_@2x.gif);
@@ -84,7 +89,30 @@ a{
 #about p{
 	margin-bottom:2rem;
 }
-#about p:last-child,
+#about p:nth-child(2),
 #team p{
 		margin-bottom:7rem;	
+}
+#projects{
+	margin-bottom:5rem;	
+}
+#contact{
+	background-color:#223541;
+	
+}
+#contact p{
+	color:#EDF3F3;	
+}
+
+@media (max-width: 768px) {
+  .navbar-brand{
+	width:20%;
+	height:20%;	
+}
+}
+@media (max-width: 650px) {
+  .navbar-brand{
+	width:30%;
+	height:30%;	
+}
 }
