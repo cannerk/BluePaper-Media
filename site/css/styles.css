@@ -104,6 +104,20 @@ a{
 	color:#EDF3F3;	
 }
 
+
+/* --------------------CONTACT ICONS--------------------*/
+.icon{
+	float:left;
+	margin-right:5%;
+}
+
+.allIcon{
+	margin-bottom:5%;
+}
+
+
+
+
 @media (max-width: 768px) {
   .navbar-brand{
 	width:20%;
