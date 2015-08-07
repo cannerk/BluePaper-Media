@@ -106,12 +106,25 @@ a{
 
 
 /* --------------------CONTACT ICONS--------------------*/
-.icon{
+.allIcon{
 	float:left;
-	margin-right:5%;
+	width:100%;
+	margin-left:25%;
 }
 
-.allIcon{
+.icon{
+	float:left;
+	margin-left:2%;
+	
+}
+
+/*.allIcon{
+	margin-bottom:5%;
+	margin-left:25%;
+	width:100%;
+}*/
+
+#team p{
 	margin-bottom:5%;
 }
 
@@ -123,10 +136,20 @@ a{
 	width:20%;
 	height:20%;	
 }
+
+.allIcon{
+	margin-left:35%;
+}
+
+
+
+
 }
 @media (max-width: 650px) {
   .navbar-brand{
 	width:30%;
 	height:30%;	
 }
+
+
 }
