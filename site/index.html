@@ -165,18 +165,21 @@
         <div class="text-center">
         	<p class="wt">Feel free to contact us about any projects you have, or just say hello!</p>
         </div>
-          <form>
+          <form id="contact-form" action="mailer.php">
           	<div class="form-group">
-    			<input type="email" class="form-control" placeholder="Your Email">
+    			<input type="email" class="form-control" placeholder="Your Email" name="email">
   			</div>
  			<div class="form-group">
-    			<input type="textfield" class="form-control" id="exampleInputPassword1" placeholder="Your Name">
+    			<input type="textfield" class="form-control" id="exampleInputPassword1" placeholder="Your Name" name="name">
   			</div>
             <div class="form-group">
-    			<textarea class="form-control" rows="4" placeholder="Message"></textarea>
+    			<textarea class="form-control" rows="4" placeholder="Message" name="message"></textarea>
   			</div>
-            <button type="submit" class="btn btn-primary form">Submit</button>
+            <button type="submit" class="btn btn-primary form">Send</button>
           </form>
+          <div id="form-message">
+          
+          </div>
         </div>
       </div>
     </div>
@@ -184,6 +187,7 @@
 <!--  / CONTACT SECTION -->
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
+<script src="js/app.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
 </html>
